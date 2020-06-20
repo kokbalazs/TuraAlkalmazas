@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/kokaybalazs/turaalkalmazas/MainMenu.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/kokaybalazs/turaalkalmazas/Map.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/kokaybalazs/turaalkalmazas/TrackingMenu.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/kokaybalazs/turaalkalmazas/TrackingService.java" charset="windows-1250" />
+  </component>
+</project>
