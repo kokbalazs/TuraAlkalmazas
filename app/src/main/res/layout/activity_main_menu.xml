@@ -1,0 +1,28 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+
+    <TableRow>
+	    <Button 
+	        android:layout_column="1"
+	        android:id="@+id/btnShowMap"
+	        android:gravity="center"
+	        android:text="@string/btnShowMap" />
+    </TableRow>
+    <TableRow>
+	    <Button 
+	        android:layout_column="1"
+	        android:id="@+id/btnTrackingDetails"
+	        android:gravity="center"
+	        android:text="@string/btnTrackingDetails" />
+    </TableRow>
+    <TableRow>
+	    <Button 
+	        android:layout_column="1"
+	        android:id="@+id/btnTrackCalculation"
+	        android:gravity="center"
+	        android:text="@string/btnTrackCalculation" />
+    </TableRow>"
+
+</TableLayout>

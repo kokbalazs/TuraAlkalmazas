@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Túra alkalmazás</string>
+    
+    <!-- Főmenü - törölve -->
+    <string name="btnShowMap">Térkép</string>
+    <string name="btnTrackingDetails">Követési menü</string>
+    <string name="btnTrackCalculation">Útvonalszámolás</string>
+    
+    <!-- Követési menü -->
+    <string name="btnStart">Követés indítása</string>
+    <string name="btnPause">Követés megállítása</string>
+    <string name="btnStop">Követés leállítása</string>
+    
+    <string name="tvDistance">Megtett távolság: </string>
+    <string name="tvTimeFromStart">Eltelt idő: </string>
+    <string name="tvLastLatitude">Utolsó szélességi pont: </string>
+    <string name="tvLastLongitude">Utolsó hosszúsági pont: </string>
+    
+    <string name="lblAlertDialog">Biztos leállítod a követést?</string>
+    <string name="lblYes">Igen</string>
+    <string name="lblNo">Nem</string>
+    
+    <!-- Térkép menü -->
+    <string name="menuItemTrackMenu">Követés menü</string>
+    <string name="menuItemTrackList">Előző utak</string>
+    <string name="menuItemDistanceFromHere">Útszámolás</string>
+    <string name="menuItemInfoScreen">Információ</string>
+    
+    <!-- Előző utak menü -->    
+    <string name="lblTrackList">Előző utak</string>
+    <string name="menuItemGpxFile">GPX fájl létrehozása</string>
+    
+    <!-- információs ablak -->
+    <string name="infoButton">Vissza</string>
+    <string name="infoText">Üdvözöllek! \n\nA Túra alkalmazás egy, a túrázást megkönnyítő program Androidra. \n\nA főképernyőn egy térképet látsz, 
+        amin tudsz mozogni, nézelődni. A térképek letöltéséhez internet szükséges! Csak az első alkalommal, ezért a lehetséges útvonalat érdemes
+        körbenézni hogy a memóriába el legyen mentve \nA követés menüben tudod elindítani a GPS követést, azon a képernyőn kapsz is egy-két információt
+        , de a megtett távolság, és időtartam a térképen is látható. \nAz előző utak menüpontban az előzőleg követett utakról van információ tárolva, 
+        itt lehet GPX formátumba exportálni is. \n Az útszámolás menüben, ahogy neve is mutatja távolságot lehet számolni, nyomj akárhova a térképen 
+        utána pedig a menüben a számolás gombra nyomva kiírja a távolságot.</string>
+    <string name="InfoScreen">Túra Alkalmazás - Információk</string>
+    
+    <!-- Beállítások menü -->
+    <string name="settingsTitle">Beállítások</string>
+    <string name="settingsSummary"></string>
+    
+    <string name="infoTitle">Információ ablak</string>
+    <string name="infoSummary">Indításkor felugró ablak ki/bekapcsolása</string>
+    
+    <string name="mapTitle">A térkép URL címe</string>
+    <string name="mapSummary">Csak akkor módosítsd ha biztos vagy benne mit csinálsz, \nalap érték: http://users.atw.hu/perzsa/map/Turaterkep/</string>
+    
+    <!-- Útszámolás -->
+    <string name="tvInfo">Nyomj bárhova a számoláshoz</string>
+    <string name="menuItemDeletePoint">Előző pont törlése</string>
+    <string name="menuItemDeleteAllPoint">Összes pont törlése</string>
+    <string name="menuItemCalculate">Számolás</string>
+    
+    <!-- Toast -->
+    <string name="toastGpsEnabled">Kérlek ellenőrizd hogy a GPS be van-e kapcsolva</string>
+    <string name="toastLoading">Betöltés</string>
+    <string name="toastNoClick">Még nem klikkeltél sehova!</string>
+    <string name="toastOneMoreClick">Még egy helyre klikkelj!</string>
+
+</resources>

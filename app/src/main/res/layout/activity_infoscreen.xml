@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/inoText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="70dp"
+        android:text="@string/infoText"
+        android:gravity="center"/>
+    
+    <Button 
+        android:id="@+id/btnInfoExit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infoButton"/>
+    
+
+</LinearLayout>

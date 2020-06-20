@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <com.kokaybalazs.turaalkalmazas.ZoomLevelMapView
+        android:id="@+id/mapviewdist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"/>
+    
+    <TextView
+	        android:id="@+id/tvDistanceCalcInformation"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:textSize="15sp"
+	        android:gravity="center"/>
+    
+    <TextView
+	        android:id="@+id/tvDistanceCalc"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:textSize="20sp"
+	        android:layout_alignParentRight="true"
+        	android:layout_alignParentBottom="true"
+	        android:gravity="center"/>
+    
+
+</RelativeLayout>
